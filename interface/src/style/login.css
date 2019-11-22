@@ -1,0 +1,157 @@
+.nreg_box {
+  left: 60%;
+  margin-left: 115px;
+  position: absolute;
+  top: 90px;
+  width: 378px;
+  margin: 0 auto;
+  height: auto;
+  color: #666;
+  margin-bottom: 30px;
+}
+.nreg_box > .nreg_left {
+  height: 530px;
+  margin-top: 12px;
+  background: #fff;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg {
+  border-bottom: 1px solid #f3f3f3;
+  margin: 24px 15px 0 15px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > .tab_sig {
+  margin-left: 53px;
+  margin-right: 5px;
+  margin-top: 40px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > li {
+  background: #333;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 123px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > li > a {
+  color: #f3f3f3;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > .tab_cur {
+  background: #f3f3f3;
+  margin-top: 40px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > .tab_cur > a {
+  color: #666;
+}
+.nreg_box > .nreg_left > .nreg_form {
+  padding-top: 28px;
+  margin: 0 15px;
+}
+.nreg_box > .nreg_left > .nreg_form > .form-group {
+  padding: 0 0 0 8px;
+  border: 1px solid #ccc;
+  height: 40px;
+  width: 313px;
+  line-height: 38px;
+}
+.nreg_box > .nreg_left > .nreg_form > .form-group > .user {
+  float: left;
+  height: 36px;
+  width: 48px;
+  background: url(../img/icon_sig_reg.png) no-repeat;
+  background-position: -168px -27px;
+}
+.nreg_box > .nreg_left > .nreg_form > .form-group > #phone {
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 229px;
+}
+.nreg_box > .nreg_left > .nreg_form > .ps {
+  padding: 0 0 0 8px;
+  margin-top: 28px;
+  height: 40px;
+  width: 313px;
+  line-height: 38px;
+  border: 1px solid #ccc;
+  color: #000;
+}
+.nreg_box > .nreg_left > .nreg_form > .ps > .password {
+  float: left;
+  height: 36px;
+  width: 48px;
+  background: url(../img/icon_sig_reg.png) no-repeat;
+  background-position: -168px -61px;
+}
+.nreg_box > .nreg_left > .nreg_form > .ps > #password {
+  height: 38px;
+  width: 150px;
+  border: none;
+  outline: none;
+}
+.nreg_box > .nreg_left > .nreg_form .forget {
+  display: block;
+  margin-top: 30px;
+  text-align: right;
+  margin-right: 33px;
+  line-height: 26px;
+}
+.nreg_box > .nreg_left > .nreg_form .forget > a {
+  color: #666;
+}
+.nreg_box > .nreg_left > .nreg_form > .ok {
+  text-align: center;
+  height: 40px;
+  width: 313px;
+  background: #000;
+  line-height: 36px;
+  font-size: 18px;
+}
+.nreg_box > .nreg_left > .nreg_form > .ok > .submit {
+  color: #fff;
+  height: 38px;
+  width: 80px;
+  background: #000;
+  border: none;
+  font-size: 18px;
+}
+.nreg_box > .nreg_left > .partner {
+  color: #999;
+  margin-top: 20px;
+  text-align: center;
+}
+.nreg_box > .nreg_left .URL {
+  margin-top: 40px;
+  text-align: center;
+  color: #ccc;
+}
+.nreg_box > .nreg_left .URL > a {
+  line-height: 54px;
+  padding: 9px 16px;
+  margin: 0 5px;
+}
+.nreg_box > .nreg_left .URL > .weixin {
+  background: url(../img/icon_sig_reg.png) no-repeat;
+  background-position: -37px -21px;
+}
+.nreg_box > .nreg_left .URL > .zhifubao {
+  background: url(../img/icon_sig_reg.png) no-repeat;
+  background-position: -73px -21px;
+}
+.nreg_box > .nreg_left .URL > .qq {
+  background: url(../img/icon_sig_reg.png) no-repeat;
+  background-position: -110px -22px;
+}
+.nreg_box > .nreg_left .URL > .sina {
+  background: url(../img/icon_sig_reg.png) no-repeat;
+  background-position: -37px -57px;
+}
+.nreg_box > .nreg_left .URL > .renren {
+  background: url(../img/icon_sig_reg.png) no-repeat;
+  background-position: -73px -57px;
+}
+#footer {
+  position: fixed;
+  bottom: -11px;
+  left: 450px;
+}

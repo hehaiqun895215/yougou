@@ -1,0 +1,148 @@
+.nreg_box {
+  left: 60%;
+  margin-left: 115px;
+  position: absolute;
+  top: 90px;
+  width: 378px;
+  margin: 0 auto;
+  height: auto;
+  color: #666;
+  margin-bottom: 30px;
+}
+.nreg_box > .nreg_left {
+  height: 530px;
+  margin-top: 12px;
+  background: #fff;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg {
+  border-bottom: 1px solid #f3f3f3;
+  margin: 24px 15px 0 15px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > .tab_sig {
+  margin-left: 53px;
+  margin-right: 5px;
+  margin-top: 40px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > li {
+  background: #f3f3f3;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 123px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > li > a {
+  color: #666;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > .tab_cur {
+  background: #333;
+  margin-top: 40px;
+}
+.nreg_box > .nreg_left > .tab_sig_reg > .tab_cur > a {
+  color: #f3f3f3;
+}
+.nreg_box > .nreg_left > .nreg_form {
+  padding-top: 100px;
+  margin: 0 15px;
+}
+.nreg_box > .nreg_left > .nreg_form > .form-group {
+  padding: 0 0 0 8px;
+  border: 1px solid #ccc;
+  height: 40px;
+  width: 313px;
+  line-height: 38px;
+}
+.nreg_box > .nreg_left > .nreg_form > .form-group > #phone {
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 229px;
+}
+.nreg_box > .nreg_left > .nreg_form > .code {
+  margin-top: 40px;
+  height: 40px;
+  width: 313px;
+}
+.nreg_box > .nreg_left > .nreg_form > .code > .vc {
+  float: left;
+  height: 40px;
+  width: 220px;
+  border: 1px solid #ccc;
+}
+.nreg_box > .nreg_left > .nreg_form > .code > .vc .verCode {
+  font-size: 12px;
+  color: #000;
+  padding: 0 0 0 8px;
+}
+.nreg_box > .nreg_left > .nreg_form > .code > .vc > #verCode {
+  border: none;
+  height: 37px;
+  width: 135px;
+  padding: 0 0 0 8px;
+  outline: none;
+}
+.nreg_box > .nreg_left > .nreg_form > .code > #verCodeBtn {
+  float: right;
+  height: 38px;
+  width: 80px;
+  background: #000;
+  color: #fff;
+}
+.nreg_box > .nreg_left > .nreg_form > .ps {
+  padding: 0 0 0 8px;
+  margin-top: 40px;
+  height: 40px;
+  width: 313px;
+  line-height: 38px;
+  border: 1px solid #111;
+  color: #000;
+}
+.nreg_box > .nreg_left > .nreg_form > .ps > #password {
+  margin-left: 36px;
+  height: 38px;
+  width: 235px;
+  border: none;
+  outline: none;
+}
+.nreg_box > .nreg_left > .nreg_form > .ps2 {
+  padding: 0 0 0 8px;
+  margin-top: 40px;
+  height: 40px;
+  width: 313px;
+  line-height: 38px;
+  border: 1px solid #ccc;
+  color: #000;
+}
+.nreg_box > .nreg_left > .nreg_form > .ps2 > #password2 {
+  margin-left: 8px;
+  height: 38px;
+  width: 235px;
+  border: none;
+  outline: none;
+}
+.nreg_box > .nreg_left > .nreg_form > .file {
+  text-align: center;
+  margin-top: 20px;
+}
+.nreg_box > .nreg_left > .nreg_form > .ok {
+  text-align: center;
+  height: 40px;
+  width: 313px;
+  background: #000;
+  line-height: 36px;
+  font-size: 18px;
+}
+.nreg_box > .nreg_left > .nreg_form > .ok > .submit {
+  color: #fff;
+  height: 38px;
+  width: 80px;
+  background: #000;
+  border: none;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 450px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>优购时尚商城_用户注册</title>
+    <link rel="stylesheet" href="../style/register.css">
+    <link rel="stylesheet" href="../style/common.css">
+    <script type="text/javascript" src="../js/require.js" data-main="../js/main.reg"></script>
+    
+</head>
+<!-- 首页 -->
+
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <ul class="left-content">
+            <li>
+                <div class="scan-code">
+                    <a href="javascript:;">关注</a>
+                    
+                </div>
+            </li>
+            <li class="item-app">
+                <div class="scan-code">
+                    <a href="javascript:;">下载APP</a>
+                
+                </div>
+
+            </li>
+        </ul>
+        <ul class="right-content" id="top_nav">
+            <li class="item-frist about_user">
+                <a rel="nofollow" href="./login.html">登录</a> /
+                <a rel="nofollow" href="./register.html">注册</a>
+            </li>
+            <li class="item">
+                <a href="" class="top-collect">
+                    <i class="icon bg-top_collect"></i>
+                    <span class="title">收藏</span>
+                </a>
+            </li>
+            <li class="item-cart">
+                <a href=""><i class="icon"></i>购物袋</a>
+            </li>
+            <li class="items">
+                <!-- <div class="notice"> -->
+                <a href="javascript:;">公告</a>
+                <!-- <div class="notice-content"> -->
+                <ul class="notice-list">
+
+                    <li class="item ">
+                        <a target="_blank" href="">优购客服电话变更</a>
+                    </li>
+
+                    <li class="item item1 ">
+                        <a target="_blank" href="">关闭分享购频道</a>
+                    </li>
+
+                    <li class="item item1 ">
+                        <a target="_blank" href="">提醒会员谨防诈骗电话</a>
+                    </li>
+
+                </ul>
+                <!-- </div> -->
+                <!-- </div> -->
+            </li>
+        </ul>
+    </div>
+    <!--logo  -->
+    <div class="phon">
+        <h2 class="phon_logo"><a href=""><img src="../img/logo.png" alt="" /></a></h2>
+        <p class=" fl">
+            用户注册
+        </p>
+    </div>
+
+    <!-- 背景图 -->
+    <form action="/registerValidate.jhtml" method="post">
+        <input id="redirectURL_1" type="hidden" name="redirectURL" value="">
+        <div class="cen-new rel">
+            <a href="" target="_blank" class="cen-new"></a>
+        </div>
+        <!-- 登录/注册 -->
+        <div class="nreg_box clearfix">
+            <div id="emailDiv" class="nreg_left fr">
+                <ul class="tab_sig_reg clearfix">
+                    <li class="tab_sig"><a href="./login.html">登录</a></li>
+                    <li class="tab_reg tab_cur"><a href="./register.html">注册</a></li>
+                </ul>
+                <div class="nreg_form" id="myform">
+                    <!-- 输入手机号 -->
+                    <div class="form-group">
+                        <label class="lab1 nreg_mob_ema">手机号</label>
+                        <input type="text" id="phone" name="phone" placeholder="请输入您的手机号码">
+                        <p class="uphone "></p>
+                    </div>
+                    <!-- 获取验证码 -->
+                    <div class="code">
+                        <div class="vc">
+                            <label class="verCode">短信验证</label>
+                            <input type="" name="verCode" id="verCode" value="" placeholder="请输入验证码" />
+                        </div>
+                        <input type="button" name="" id="verCodeBtn" value="获取验证码" onclick="settime(this);" />
+                    </div>
+                    <!-- 输入密码 -->
+                    <div class="ps">
+                        <label for="password">密码</label>
+                        <input type="text" id="password" name="password" placeholder="字母、数字、符号均可，8-25个字">
+                        <p class="upass"></p>
+                    </div>
+                    <!-- 确认密码 -->
+                    <div class="ps2">
+                        <label for="password2">确认密码</label>
+                        <input type="text" id="password2" name="password2">
+                        <p class="uver"></p>
+                    </div>
+                    <!-- 协议 -->
+                    <p class="file">
+                        <span> <input type="checkbox" id="rules" name="rules" checked="checked" /> </span>
+                        <label for="rules">我已阅读并同意《优购会员注册协议》</label>
+                        <div id="fl"></div>
+                    </p>
+                    <!-- 确定注册 -->
+                    <p class="ok">
+                       <input type="button" class="submit" title="" value="点击注册">
+                        <!-- <a href=" "><button class="btn"  value="确认并注册"></button></a>     -->
+                    </p>
+                </div>
+         
+            </div>
+        </div>
+
+    </form>
+    <!-- 底部 -->
+    <!-- footer开始 -->
+    <footer id="footer" class="text-muted">
+        <div class="contaier">
+            <p>苏ICP备12345678. © 2009-2016粤ICP备09070608号-4</p>
+        </div>
+        <!-- footer结束 -->
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script> -->
+        <!-- <script src="../js/register.js/register.js" data-main="../js/register.js/app.js"></script> -->
+</body>
+
+</html>

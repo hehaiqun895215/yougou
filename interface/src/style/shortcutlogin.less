@@ -1,0 +1,185 @@
+// 登录/手机快捷登录
+
+.nreg_box {
+    left         : 60%;
+    margin-left  : 115px;
+    position     : absolute;
+    top          : 90px;
+    width        : 378px;
+    margin       : 0 auto;
+    // height    : 542px;
+    height       : auto;
+    color        : #666;
+    margin-bottom: 30px;
+
+    >.nreg_left {
+        height    : 530px;
+        margin-top: 12px;
+        background: #fff;
+        box-sizing: border-box;
+        margin-top: 50px;
+
+        >.tab_sig_reg {
+            border-bottom: 1px solid #f3f3f3;
+            margin       : 24px 15px 0 15px;
+
+            // 账户密码登录
+            >.tab_sig {
+                margin-left : 53px;
+                margin-right: 5px;
+                margin-top  : 40px;
+            }
+
+            >li {
+                background : #f3f3f3;
+                float      : left;
+                height     : 40px;
+                line-height: 40px;
+                text-align : center;
+                width      : 123px;
+
+                >a {
+                    color: #666;
+                }
+            }
+
+            // 手机快捷登录
+            >.tab_cur {
+                background: #333;
+                margin-top: 40px;
+
+                >a {
+                    color: #f3f3f3;
+                }
+            }
+        }
+
+        //   用户登录
+        >.nreg_form {
+            padding-top: 30px;
+            margin     : 0 15px;
+
+            >.form-group {
+                padding    : 0 0 0 8px;
+                border     : 1px solid #ccc;
+                height     : 40px;
+                width      : 313px;
+                line-height: 38px;
+
+
+                // 输入手机号
+                >#phone {
+                    border : none;
+                    outline: none;
+                    padding: 0;
+                    width  : 229px;
+                }
+            }
+
+            // 输入验证码
+            >.code {
+                margin-top: 40px;
+                height    : 40px;
+                width     : 313px;
+
+                >.vc {
+                    float : left;
+                    height: 40px;
+                    width : 230px;
+                    border: 1px solid #ccc;
+
+                    .verCode {
+                        font-size: 12px;
+                        color    : #000;
+                        padding  : 0 0 0 8px;
+                    }
+
+                    >#verCode {
+                        border : none;
+                        height : 37px;
+                        width  : 134px;
+                        padding: 0 0 0 8px;
+                        outline: none;
+
+                    }
+                }
+
+                >#verCodeBtn {
+                    float     : right;
+                    height    : 38px;
+                    width     : 80px;
+                    background: #000;
+                    color     : #fff;
+
+                }
+            }
+
+            // 点击登录
+            >.ok {
+                margin-top : 40px;
+                text-align : center;
+                height     : 40px;
+                width      : 313px;
+                background : #000;
+                line-height: 36px;
+                font-size  : 18px;
+
+                >.submit {
+                    color     : #fff;
+                    height    : 38px;
+                    width     : 80px;
+                    background: #000;
+                    border    : none;
+                }
+            }
+
+        }
+
+        // 使用合作网站账号登录优购
+        >.partner {
+            color     : #999;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        // 合作网站
+        .URL {
+            margin-top: 40px;
+            text-align: center;
+            color     : #ccc;
+
+            >a {
+                line-height: 54px;
+                padding    : 9px 16px;
+                margin     : 0 5px;
+            }
+
+            >.zhifubao {
+                background         : url(../img/icon_sig_reg.png)no-repeat;
+                background-position: -73px -21px;
+            }
+
+            >.qq {
+                background         : url(../img/icon_sig_reg.png)no-repeat;
+                background-position: -110px -22px;
+            }
+
+            >.sina {
+                background         : url(../img/icon_sig_reg.png)no-repeat;
+                background-position: -37px -57px;
+            }
+
+            >.renren {
+                background         : url(../img/icon_sig_reg.png)no-repeat;
+                background-position: -73px -57px;
+            }
+        }
+    }
+}
+
+#footer {
+    position: fixed;
+    bottom  : -11px;
+    left    : 450px;
+
+}

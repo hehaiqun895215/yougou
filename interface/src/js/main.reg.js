@@ -1,0 +1,15 @@
+require.config(
+    {
+        paths:{
+            jquery:"https://cdn.bootcss.com/jquery/3.4.1/jquery.min",
+            reg:"./lib/reg",
+            md5:"./jquery.md5"
+        },
+        shim:{
+            md5:['jquery']
+        }
+    }
+)
+require(['jquery','reg'],function($,reg){
+    reg.reg();
+})

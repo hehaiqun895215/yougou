@@ -1,0 +1,170 @@
+.container {
+  margin-bottom: 50px;
+  position: relative;
+  width: 100%;
+}
+.container > .logo {
+  width: 98px;
+  height: 58px;
+  margin: 0 auto;
+  padding: 55px 0;
+}
+.container > .nav-container {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+.container > .nav-container > .nav {
+  float: left;
+  width: 930px;
+  height: 35px;
+  margin: 0 auto;
+}
+.container > .nav-container > .nav > .nav-logo {
+  display: none;
+  position: relative;
+  top: -5px;
+  right: 50px;
+}
+.container > .nav-container > .nav > .nav-logo > a > img {
+  height: 45px;
+}
+.container > .nav-container > .nav > .active > p {
+  margin-top: 20px;
+  text-align: left;
+}
+.container > .nav-container > .nav > li {
+  float: left;
+  vertical-align: middle;
+  width: 80px;
+  padding-top: 30px;
+}
+.container > .nav-container > .nav > li > a {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+.container > .nav-container > .nav > li .dropdown_menu {
+  position: absolute;
+  width: 72px;
+  display: none;
+  line-height: 50px;
+}
+.container > .nav-container > .nav > li .dropdown_menu > a {
+  text-align: center;
+  color: #111;
+  font-size: 18px;
+}
+.container > .nav-container > .nav > .dropdown:hover .dropdown_menu {
+  display: block;
+}
+.container > .nav-container > .searchWrap {
+  float: right;
+  height: 32px;
+  width: 180px;
+  margin-right: 80px;
+  border-bottom: 1px solid #111;
+}
+.container > .nav-container > .searchWrap > form {
+  width: 180px;
+  padding-top: 10px;
+}
+.container > .nav-container > .searchWrap > form > input {
+  outline: none;
+  border: none;
+}
+.container > .nav-container > .searchWrap > form > label {
+  float: right;
+  cursor: pointer;
+  width: 20px;
+  height: 17px;
+  background: url(../img/css_sprites.png) no-repeat;
+  background-position: -177px -10px;
+}
+.sport {
+  cursor: pointer;
+  float: left;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.sport > li {
+  float: left;
+  margin: 3px auto;
+}
+.sport > li > a {
+  color: #111;
+}
+.main {
+  width: 1190px;
+  float: left;
+  height: 800px;
+}
+.main .main-left {
+  width: 500px;
+  float: left;
+  height: 800px;
+}
+.main .right {
+  float: right;
+  width: 600px;
+}
+footer {
+  padding: 48px 0 20px;
+  background: #fff;
+}
+footer .footer-top {
+  float: left;
+}
+footer .footer-top li {
+  float: left;
+  width: 150px;
+  height: 69px;
+  text-align: center;
+}
+footer .footer-top li a {
+  width: 100%;
+  height: 100%;
+}
+footer .footer-top li a > p {
+  font-size: 20px;
+  color: #111;
+}
+footer .footer-right {
+  float: right;
+  text-align: right;
+}
+footer .footer-right > a {
+  color: #111;
+  font-size: 22px;
+  font-weight: 800px;
+}
+footer .footer-bottom {
+  float: left;
+}
+footer .footer-bottom li {
+  float: left;
+  height: 18px;
+  padding-right: 15px;
+  border-right: 1px solid #d6d6d6;
+  box-sizing: content-box;
+  text-align: center;
+  margin-right: 15px;
+}
+footer .footer-bottom li a {
+  display: block;
+  line-height: 18px;
+  color: #111;
+  font-size: 12px;
+}
+footer .footer-bottom .nobor {
+  border: 0;
+}
+footer .footer-bottom .copyright {
+  float: left;
+  padding-top: 8px;
+  color: #111;
+  text-align: left;
+  font-size: 12px;
+}

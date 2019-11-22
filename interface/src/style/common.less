@@ -1,0 +1,170 @@
+// 通用
+* {
+    padding   : 0;
+    margin    : 0;
+    list-style: none;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+// 头部
+.body,
+html {
+    width : 100%;
+    height: 100%;
+}
+
+.header {
+    width     : 100%;
+    height    : 40px;
+    background: #333;
+    // float  : left;
+}
+
+// 公共的
+.header .left-content>li,
+.header .right-content>li,
+.icon {
+    display: inline-block;
+}
+
+.header .left-content>li a,
+.header .right-content>li a {
+    color      : #fff;
+    line-height: 40px;
+}
+
+// 头部左边
+.header .left-content {
+    margin-left: 145px;
+    float      : left;
+    line-height: 40px;
+
+    // >.left {
+    //     position: relative;
+    // }
+}
+
+.header .left-content .app {
+    margin-left: 20px;
+}
+
+//  头部右边
+.header .right-content {
+    float       : right;
+    margin-right: 92px;
+    line-height : 40px;
+
+    >.item:hover>.notice {
+        display: block;
+    }
+}
+
+.header .right-content>.item-frist {
+    padding-right: 11px;
+}
+
+.header .right-content>.item {
+    padding: 0 11px;
+
+    >.top-collect .bg-top_collect {
+        width         : 12px;
+        height        : 11px;
+        background    : url(../img/css_sprites.png) -78px -174px;
+        padding-right : 5px;
+        vertical-align: middle;
+    }
+}
+
+.header .right-content .item-cart {
+    margin-left: 13px;
+
+    >a i {
+        width         : 12px;
+        height        : 12px;
+        background    : url(../img/css_sprites.png) -11px -200px;
+        padding       : 4px 8px 0 0;
+        vertical-align: middle;
+    }
+}
+
+// 二级菜单
+// .header .right-content>.items>.notice {
+//     position: relative;
+//     padding : 0 11px;
+// display     :block;
+.header .right-content>.items {
+    position: relative;
+    padding : 0 11px;
+    // >.notice-content {
+    //     display    : none;
+    //     position   : absolute;
+    //     right      : 0;
+    //     top        : 40px;
+
+
+    >.notice-list {
+        display   : none;
+        position  : absolute;
+        right     : 0;
+        top       : 40px;
+        width     : 180px;
+        background: #fff;
+        border    : 1px solid #eee;
+        margin-top: 4px;
+        padding   : 15px 15px 30px 20px;
+
+        >li>a {
+            color: #666;
+        }
+    }
+
+
+
+    //     >li>a {
+    //         color: #666;
+    //     }
+    // }
+    // }
+}
+
+.right-content>.items:hover .notice-list {
+    display: block;
+}
+
+// .item:hover.notice{
+//     display : block;
+// }
+// logo
+.phon {
+    width: 990px;
+    float: left;
+
+    >.phon_logo {
+        float       : left;
+        padding-right     : 30px ;
+        border-right: 1px solid #e6e6e6;
+        margin-right: 30px;
+       
+    }
+
+    >.fl {
+        float      : left;
+        line-height: 82px;
+        font-size  : 18px;
+        color      : #666;
+    }
+}
+
+// 背景图
+.cen-new {
+    width : 100%;
+    height: 553px;
+
+    >a {
+        background: url('../img/bg.png') no-repeat top center;
+        position  : absolute;
+        top       : 125px;
+        left      : 0;
+    }
+}
